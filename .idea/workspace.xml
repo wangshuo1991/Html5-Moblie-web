@@ -94,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.724138">
+            <state vertical-scroll-proportion="0.54741895">
               <caret line="19" column="47" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -116,35 +116,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="username.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/username.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="man_existed.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/man_existed.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="close_win.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/images/close_win.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/page.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.4375">
-              <caret line="680" column="1" selection-start-line="680" selection-start-column="1" selection-end-line="680" selection-end-column="1" />
+              <caret line="681" column="1" selection-start-line="681" selection-start-column="1" selection-end-line="681" selection-end-column="1" />
               <folding>
-                <marker date="1533194204108" expanded="true" signature="1031:1063" placeholder="{...}" />
-                <marker date="1533194204108" expanded="true" signature="11230:11236" placeholder="{...}" />
+                <marker date="1533195066895" expanded="true" signature="1031:1063" placeholder="{...}" />
+                <marker date="1533195066895" expanded="true" signature="11251:11257" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -344,7 +323,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platform_mobile" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/HTML5手机端万年历日历代码" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -414,8 +393,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14820676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -542,8 +521,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1533194204108" expanded="true" signature="1031:1063" placeholder="{...}" />
-            <marker date="1533194204108" expanded="true" signature="11230:11236" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="1031:1063" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="11251:11257" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -613,8 +592,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="326" column="9" selection-start-line="326" selection-start-column="1" selection-end-line="326" selection-end-column="9" />
           <folding>
-            <marker date="1533194204108" expanded="true" signature="1031:1063" placeholder="{...}" />
-            <marker date="1533194204108" expanded="true" signature="11230:11236" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="1031:1063" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="11251:11257" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -624,8 +603,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1533194204108" expanded="true" signature="1031:1063" placeholder="{...}" />
-            <marker date="1533194204108" expanded="true" signature="11230:11236" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="1031:1063" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="11251:11257" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -792,16 +771,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.724138">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/myUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -831,12 +800,27 @@
     <entry file="file://$PROJECT_DIR$/css/page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.4375">
-          <caret line="680" column="1" selection-start-line="680" selection-start-column="1" selection-end-line="680" selection-end-column="1" />
+          <caret line="681" column="1" selection-start-line="681" selection-start-column="1" selection-end-line="681" selection-end-column="1" />
           <folding>
-            <marker date="1533194204108" expanded="true" signature="1031:1063" placeholder="{...}" />
-            <marker date="1533194204108" expanded="true" signature="11230:11236" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="1031:1063" placeholder="{...}" />
+            <marker date="1533195066895" expanded="true" signature="11251:11257" placeholder="{...}" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/close_win.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/man_existed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/username.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feedback.html">
@@ -847,19 +831,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/username.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/man_existed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/close_win.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54741895">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
