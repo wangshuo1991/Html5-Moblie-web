@@ -1,0 +1,101 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;/*清除点击默认高亮效果*/
+    -webkit-box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+html,body {
+    font-size: 100px;
+    font-family: "Microsoft YaHei",Helvetica,sans-serif;
+    background-color: #f1f1f1;
+}
+
+i,em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input,textarea,select {
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: transparent;
+    -webkit-appearance: none;/*移动设备上默认效果，如立体效果等*/
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+}
+
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.por {
+    position: relative;
+}
+
+.poa {
+    position: absolute;
+}
+
+
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: ".";
+    line-height: 0;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/*这里统一设置 边距为20px （@2x*/
+.body-pad {
+    padding: 0 .2rem;
+}
+
+
+/*统一设置margin padding*/
+.mar-20 {
+    margin-top: .2rem;
+}
+
+.mar-10 {
+    margin-top: .1rem;
+}
+
+.pl-10 {
+    padding-left: .1rem;
+}
+
+.p-10 {
+    padding: 0 .1rem;
+}
+
+.p-14 {
+    padding: 0 .14rem;
+}
+
+
