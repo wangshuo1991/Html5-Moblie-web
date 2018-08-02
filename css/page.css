@@ -7,15 +7,22 @@
     overflow: auto;
 }
 
+.layout-640 {
+    width: 640px;
+    top:0;
+    left: 50%;
+    margin-left: -320px;
+}
+
 /*
 * login css start
 */
 
 .top-bar {
     width: 100%;
-    height: .45rem;
+    height: .8rem;
     background-color: #fff;
-    line-height: .45rem;
+    line-height: .8rem;
     text-align: center;
     box-shadow: 0 3px 15px #000;
     -moz-box-shadow: 0 3px 15px rgba(0,0,0,.2);
@@ -24,48 +31,47 @@
 }
 
 .logo-box {
-    top: .1rem;
-    width: .24rem;
-    height: .25rem;
+    top: .16rem;
+    width: .48rem;
+    height: .51rem;
 }
 
 .meinian-logo {
     background: url("../images/meinian_logo.png") 0 0 no-repeat;
     background-size: 100% 100%;
-    left: .1rem;
+    left: .2rem;
 }
 
 .page-title {
     color: #788091;
-    font-size: .16rem;
+    font-size: .32rem;
 }
 
 .logo-grounp {
-    width: 2.448rem;
-    height: 2.4rem;
+    width: 3.06rem;
+    height: 3.01rem;
     background: url("../images/logo_grounp.png") no-repeat center center;
     -webkit-background-size: contain;
     background-size: contain;
-
     margin: .15rem auto;
 }
 
 .input-warp {
     width: 100%;
-    height: .4rem;
+    height: .66rem;
     border: 1px solid #d7d7d7;
     -webkit-border-radius: .24rem;
     -moz-border-radius: .24rem;
-    border-radius: .24rem;
-    font-size: .12rem;
-    margin-bottom: .15rem;
+    border-radius: .33rem;
+    font-size: .18rem;
+    margin-bottom: .25rem;
 }
 
 /*safari修复*/
 .input-warp>div:nth-child(2) {
     width: 100%;
-    height: .16rem;
-    padding: .12rem 0;
+    height: .24rem;
+    padding: .2rem 0;
 }
 
 .input-label {
@@ -76,10 +82,10 @@
 
 .input-label>i {
     position: absolute;
-    width: .144rem;
-    height: .176rem;
+    width: .18rem;
+    height: .23rem;
     background-color: #f40;
-    top: .112rem;
+    top: .2rem;
     left: .285rem;
 }
 
@@ -100,12 +106,12 @@
 .input-warp input {
     display: block;
     width: 100%;
-    height: .16rem;
-    line-height: .16rem;
+    height: .25rem;
+    line-height: .24rem;
     padding-left: .75rem;
     box-sizing: border-box;
     z-index: -1;
-    font-size: .12rem;
+    font-size: .22rem;
 }
 
 .code-box {
@@ -125,11 +131,11 @@
 .default-btn {
     display: block;
     width: 100%;
-    height: .44rem;
-    border-radius: .2rem;
+    height: .66rem;
+    border-radius: .33rem;
     background: #5c8df0;
-    font-size: .12rem;
-    line-height: .44rem;
+    font-size: .24rem;
+    line-height: .68rem;
     text-align: center;
     color: #fff;
 }
@@ -171,8 +177,8 @@ section {
 */
 
 .login-name-box {
-    font-size: .11rem;
-    left: .45rem;
+    font-size: .24rem;
+    left: 1rem;
 }
 
 .login-name {
@@ -180,8 +186,8 @@ section {
 }
 
 .login-exit {
-    right: .1rem;
-    font-size: .11rem;
+    right: .2rem;
+    font-size: .24rem;
 }
 
 .login-exit>a {
@@ -193,13 +199,13 @@ section {
 .main {
     width: 100%;
     box-sizing: border-box;
-    padding: .15rem 0;
+    padding: .3rem 0;
     background: #f5f5f5;
 }
 
 .main-wrapper {
     width: 100%;
-    padding: 0 .1rem;
+    padding: 0 .2rem;
 }
 
 .no-pad {
@@ -207,8 +213,8 @@ section {
 }
 
 .main-title {
-    line-height: .14rem;
-    font-size: .14rem;
+    line-height: .32rem;
+    font-size: .3rem;
     color: #333;
 }
 
@@ -221,7 +227,7 @@ section {
 /*新增搜索样式*/
 .search-block {
     width: 100%;
-    padding: .12rem .1rem;
+    padding: .15rem .15rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -229,30 +235,31 @@ section {
     background: #ffffff;
     -webkit-border-radius: .24rem;
     -moz-border-radius: .24rem;
-    border-radius: .24rem;
-    margin-bottom: .15rem;
+    border-radius: .32rem;
+    margin-bottom: .3rem;
     position: relative;
 }
 
 .search-block>input {
     display: block;
     width: 100%;
-    height: .14rem;
-    line-height: .14rem;
+    height: .32rem;
+    line-height: .32rem;
     color: #b2afaf;
-    font-size: .12rem;
+    font-size: .24rem;
 }
 
 .search-btn {
     position: absolute;
-    top: .075rem;
-    right: .1rem;
-    padding: .12rem;
-    width: .16rem;
-    height: .16rem;
+    top: 50%;
+    right: .2rem;
+    margin-top: -.125rem;
+    padding: .13rem;
+    width: .24rem;
+    height: .25rem;
     background: #fff url("../images/search-btn.png") no-repeat center center;
-    -webkit-background-size: .16rem .16rem;
-    background-size: .16rem .16rem;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .order-list {
@@ -262,43 +269,41 @@ section {
     box-sizing: border-box;
     border: 1px solid #d7d7d7;
     background: #fff;
-    margin-bottom: .15rem;
+    margin-bottom: .2rem;
 }
 
 .list-icon {
-    width: .45rem;
-    height: .45rem;
+    width: .4rem;
+    height: .4rem;
     background: url("../images/list-icon.png") no-repeat center center;
-    -webkit-background-size: contain;
-    background-size: contain;
-    top: .15rem;
-    left: .15rem;
+    -webkit-background-size: cover;
+    background-size: cover;
+    top: .2rem;
+    left: .2rem;
 }
 
 .list-word {
     width: 100%;
-    height: .45rem;
-    box-sizing: border-box;
-    padding-left: .75rem;
+    padding: 0 .15rem 0 1rem;
     margin-top: .15rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .order-title {
-    font-size: .12rem;
+    font-size: .28rem;
+    font-weight: normal;
 }
 
-.order-num,.order-time {
-    font-size: .1rem;
+.order-info {
+    width: 100%;
+    padding-top: .2rem;
+}
+
+.order-info span {
+    font-size: .22rem;
     color: #7e8698;
-    bottom: 0;
-}
-
-.order-num {
-    left: .75rem;
-}
-
-.order-time {
-    right: .15rem;
 }
 
 .order-list hr {
@@ -314,9 +319,9 @@ section {
 
 .action-btn a,.btn-wrapper a {
     float: right;
-    margin-left: .15rem;
-    padding: .05rem .08rem;
-    font-size: .12rem;
+    margin-left: .25rem;
+    padding: .18rem .16rem;
+    font-size: .22rem;
     color: #4972dd;
     border: 1px solid #4972dd;
 }
@@ -331,19 +336,19 @@ section {
 */
 
 .list-content {
-    margin: .15rem 0 .25rem 0;
+    margin: .25rem 0;
     background-color: #fff;
 }
 
 .info-list {
     width: 100%;
-    height: .45rem;
+    height: .8rem;
     background-color: #fff;
-    line-height: .45rem;
-    font-size: .12rem;
+    line-height: .8rem;
+    font-size: .24rem;
     border-bottom: 1px solid #d7d7d7;
     border-top: 1px solid #d7d7d7;
-    padding: 0 .1rem;
+    padding: 0 .2rem;
     margin-top: -1px;
 }
 
@@ -353,13 +358,13 @@ section {
 
 .info-input input,.info-input select {
     display: block;
-    height: .24rem;
+    height: .26rem;
     width: 100%;
-    line-height: .12rem; /*safari中光标高度和行高是一致的，输入的时候光标会和字体大小一致*/
-    margin-top: .1rem;
+    line-height: .24rem; /*safari中光标高度和行高是一致的，输入的时候光标会和字体大小一致*/
+    margin-top: .28rem;
     text-align: right;
-    color: #888;
-    font-size: .12rem;
+    color: #646464;
+    font-size: .24rem;
 }
 
 .red-star {
@@ -389,7 +394,7 @@ section {
 }
 
 .pay-win {
-    width: 2.4rem;
+    width: 4.4rem;
     background-color: #fff;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -405,8 +410,8 @@ section {
 }
 
 .pay-win div:first-child {
-    width: .48rem;
-    height: .416rem;
+    width: .76rem;
+    height: .65rem;
     background: url("../images/man_existed.png") no-repeat center center;
     -webkit-background-size: contain;
     background-size: contain;
@@ -417,9 +422,10 @@ section {
     width: 100%;
     text-align: center;
     color: #222;
-    font-size: .12rem;
-    margin: .1rem 0;
+    font-size: .22rem;
+    margin: .25rem 0;
     font-weight: 400;
+    line-height: 1.6;
 }
 
 .pay-win div:last-child {
@@ -428,10 +434,10 @@ section {
 
 .pay-win div:last-child a {
     width: 50%;
-    height: .34rem;
-    font-size: .12rem;
+    height: .66rem;
+    font-size: .26rem;
     text-align: center;
-    line-height: .34rem;
+    line-height: .6rem;
 }
 
 .cancle-btn {
@@ -450,13 +456,13 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: .3rem;
-    height: .3rem;
+    width: .6rem;
+    height: .6rem;
     background: url("../images/close_win.png") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    margin-top: 1.2rem;
-    margin-left: -.15rem;
+    margin-top: 2rem;
+    margin-left: -.3rem;
 }
 
 
@@ -471,9 +477,9 @@ section {
 
 .go-back {
     position: absolute;
-    top: .03rem;
-    left: .1rem;
-    padding: .2rem .12rem;
+    top: .2rem;
+    left: .2rem;
+    padding: .2rem .2rem;
     background: url("../images/back.png") no-repeat center center;
     background-size: contain;
     background-clip: padding-box;
@@ -486,11 +492,10 @@ section {
     -ms-transform: translateY(50%);
     -o-transform: translateY(50%);
     transform: translateY(50%);
-    width: .22rem;
-    height: .22rem;
+    width: .33rem;
+    height: .33rem;
     background: url("../images/list-selected.png") no-repeat center center;
     -webkit-background-size: cover;
-    background-size: cover;
 }
 
 .no-select {
@@ -500,7 +505,7 @@ section {
 }
 
 .main-title span:last-child {
-    font-size: .1rem;
+    font-size: .18rem;
     font-weight: normal;
     color: #888;
 }
@@ -508,7 +513,7 @@ section {
 .multiple-select {
     background: url("../images/list-multi-selected.png") no-repeat center center;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: contain;
 }
 
 /*
@@ -523,10 +528,10 @@ section {
 
 .list-card {
     border: 1px solid #d7d7d7;
-    padding: .16rem .1rem;
+    padding: .25rem .2rem;
     background: #ffffff;
-    margin: .15rem 0 .25rem 0;
-    font-size: .12rem;
+    margin: .25rem 0;
+    font-size: .24rem;
 }
 
 .list-card li {
@@ -535,25 +540,25 @@ section {
 
 .person-info li {
     width: 100%;
-    line-height: 1.6;
+    line-height: 1.8;
     overflow: hidden;
 }
 
 .person-info li span:first-child,.main-product span:first-child {
     width: 30%;
-    color: #888;
+    color: #999;
 }
 
 .person-info li span:last-child,.main-product span:last-child {
     width: 70%;
-    color: #333;
+    color: #222;
 }
 
 .list-hr {
     height:1px;
     border:none;
     border-top:1px solid #eee;
-    margin: .15rem 0;
+    margin: .25rem 0;
 }
 
 .else-product {
@@ -592,7 +597,7 @@ section {
 */
 
 .date-block {
-    height: .36rem;
+    height: .5rem;
     background: #ffffff;
     margin-bottom: .15rem;
     overflow: hidden;
@@ -601,7 +606,7 @@ section {
 .date-block li {
     float: left;
     width: 50%;
-    height: .36rem;
+    height: .5rem;
     border: 1px solid #d7d7d7;
     background: #ffffff;
     -webkit-box-sizing: border-box;
@@ -617,9 +622,9 @@ section {
     display: block;
     width: 100%;
     padding-left: .3rem;
-    height: .36rem;
-    line-height: .36rem;
-    font-size: .12rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .18rem;
     color: #333;
     text-align: left;
     position: relative;
@@ -646,3 +651,44 @@ section {
 /*
 * history css end
 */
+
+.right-icon {
+    background: url("../images/success_large.png") no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.success-alert {
+    height: .4rem;
+    padding-left: 1rem;
+    font-size: .24rem;
+    margin-top: .2rem;
+}
+
+
+.error-img {
+    width: 2.6rem;
+    height: 1.3rem;
+    margin: .2rem auto;
+    background: url("../images/error.png") no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.error-info {
+    font-size: .12rem;
+    color: #999;
+    text-align: center;
+}
+
+.back-to-home {
+    display: block;
+    width: .7rem;
+    height: .26rem;
+    text-align: center;
+    line-height: .26rem;
+    background: #ffffff;
+    border: 1px solid #5c8df0;
+    font-size: .12rem;
+    margin: .2rem auto;
+}

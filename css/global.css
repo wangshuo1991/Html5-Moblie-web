@@ -87,15 +87,28 @@ input,textarea,select {
 }
 
 .pl-10 {
-    padding-left: .1rem;
+    padding-left: .2rem;
 }
 
 .p-10 {
-    padding: 0 .1rem;
+    padding: 0 .2rem;
 }
 
 .p-14 {
-    padding: 0 .14rem;
+    padding: 0 .3rem;
 }
 
+
+input::-webkit-input-placeholder{
+    color:#b4b4b4;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#b4b4b4;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#b4b4b4;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color:#b4b4b4;
+}
 
