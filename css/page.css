@@ -238,28 +238,48 @@ section {
     border-radius: .32rem;
     margin-bottom: .3rem;
     position: relative;
+    z-index: 50;
+    overflow: hidden;
 }
 
 .search-block>input {
     display: block;
-    width: 100%;
+    width: 85%;
     height: .32rem;
     line-height: .32rem;
     color: #b2afaf;
     font-size: .24rem;
 }
 
-.search-btn {
+
+.clear-btn {
     position: absolute;
-    top: 50%;
-    right: .2rem;
-    margin-top: -.125rem;
-    padding: .13rem;
-    width: .24rem;
-    height: .25rem;
-    background: #fff url("../images/search-btn.png") no-repeat center center;
-    -webkit-background-size: cover;
+    top: .15rem;
+    right: 1rem;
+    width: .3rem;
+    height: .3rem;
+    background: #fff url('../images/clear_btn.png') no-repeat;
     background-size: cover;
+}
+
+.search-btn-wrapper {
+    position: absolute;
+    width: .88rem;
+    height: 0.62rem;
+    top: 0;
+    right: -.1rem;
+    border-left: 1px solid #d7d7d7;
+    background: #f6f9fd;
+    border-radius: 0 .32rem .32rem 0;
+}
+
+.search-btn {
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    background: url('../images/search_btn.png') no-repeat;
+    background-size: cover;
+    margin: .15rem 0 0 .18rem;
 }
 
 .order-list {
